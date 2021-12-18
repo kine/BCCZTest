@@ -1,16 +1,22 @@
-﻿{
-    "id":  "7734ccc6-bf60-4736-ac2b-4b4e5853f4dc",
-    "name":  "NVRCZTestApp",
-    "publisher":  "NAVERTICA a.s.",
-    "version":  "1.0.0.0",
-    "brief":  "",
-    "description":  "",
-    "privacyStatement":  "",
-    "EULA":  "",
-    "help":  "",
-    "url":  "",
-    "logo":  "",
-    "dependencies":  [
+{
+  "id": "f67358cc-5476-4bec-a9ba-75364520b96e",
+  "name": "NVRCZTestApp",
+  "publisher": "NAVERTICA a.s.",
+  "brief": "Navertica CZ Banking",
+  "description": "Export/Import for Czech Banks",
+  "version": "2.0.0.0",
+  "privacyStatement": "https://www.navertica.com/company/privacy_policy",
+  "EULA": "https://www.navertica.com/eula/",
+  "help": "https://helpdesk.navertica.com",
+  "url": "https://www.navertica.com",
+  "logo": "Pictures/logo-navertica216x216.png",
+  "contextSensitiveHelpUrl": "https://help.navertica.com/{0}/",
+  "supportedLocales": [
+    "en-US",
+    "cs-CZ"
+  ],
+  "application": "19.0.0.0",
+  "dependencies": [
     {
       "id": "267b59d3-7302-44c5-ba77-c87000380514",
       "name": "Core Localization Pack for Czech",
@@ -23,21 +29,19 @@
       "version": "19.0.0.0",
       "publisher": "Microsoft"
     }
-                     ],
-    "screenshots":  [
-
-                    ],
-    "platform":  "8.0.0.0",
-    "application":  "19.0.0.0",
-    "idRanges":  [
-                     {
-                         "from":  4010896,
-                         "to":  4010995
-                     }
-                 ],
-    "resourceExposurePolicy":  {
-                                   "allowDebugging":  true,
-                                   "allowDownloadingSource":  false,
-                                   "includeSourceInSymbolFile":  false
-                               }
+  ],
+  "screenshots": [],
+  "platform": "19.0.0.0",
+  "runtime": "8.0",
+  "features": [
+    "TranslationFile"
+  ],
+  "showMyCode": true,
+  "idRanges": [
+    {
+      "from": 4010696,
+      "to": 4010785
+    }
+  ],
+  "target": "Cloud"
 }
