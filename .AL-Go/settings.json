@@ -1,7 +1,7 @@
 ﻿{
     "country":  "cz",
     "AppSourceCopMandatoryAffixes":  [
-                                         "\u003caffix\u003e"
+                                         "NVR"
                                      ],
     "appFolders":  [
                        "NVRCZTestApp"
