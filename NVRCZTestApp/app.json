@@ -9,7 +9,7 @@
   "EULA": "https://www.navertica.com/eula/",
   "help": "https://helpdesk.navertica.com",
   "url": "https://www.navertica.com",
-  "logo": "",
+  "logo": "logo-navertica216x216.png",
   "contextSensitiveHelpUrl": "https://help.navertica.com/{0}/",
   "supportedLocales": [
     "en-US",
